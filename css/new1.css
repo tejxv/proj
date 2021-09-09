@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+/* UNIVERSAL */
+.row{
+    margin-top: 20px;
+}
+.section-title h3{
+    font-size: 2.3em;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.section-title p{
+    
+}
+#modal-logo{
+    height: 200px;
+    position: absolute;
+    top: -110px;
+    left: -110px;
+}
+
+/* INDEX PAGE */
+.latest-update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.update-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    grid-gap: 20px;
+}
+.update-grid .grid-fr{
+    background-color: #fafafa;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* FOOTER */
+.footer-top-area{
+    background: none 0px 0px repeat scroll rgb(9 10 20);
+}
+.footer-bottom-area{
+    background-color: #480000;
+}
+/* HEADER */
+@media screen and (max-width:800px){
+    .header-upper-area1{
+        width: 100%;
+    }
+    .upper-area-div{
+        width: 100%;
+    }
+    .social{
+        margin-left: -40px;
+    }
+}
+
+/* SLIDER */
+.btnReadMore:hover{
+    color: #b8261c;
+}
+@media screen and (max-width:800px){
+    .swiper-button-prev{
+        display: none;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+}
+.btn-pnp{
+    color: #fff !important;
+    /* width: 200px; */
+    margin-bottom: 30px;
+  }
+  .btn-pnp:hover{
+    color: #fff !important;
+    cursor: pointer;
+  }
+  .breadcumb-area-saskSINP{
+    background: rgba(0, 0, 0, 0) url("../img/home/sask-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-bcPNP{
+    background: rgba(0, 0, 0, 0) url("../img/home/bc-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-migrate{
+    background: rgba(0, 0, 0, 0) url("../img/home/passport-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-ielts{
+    background: rgba(0, 0, 0, 0) url("../img/home/ielts-banner.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-caregiver{
+    background: rgba(0, 0, 0, 0) url("../img/home/caregiver.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-permVisa{
+    background: rgba(0, 0, 0, 0) url("../img/home/permanentRes.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcumb-area-businessVisa{
+    background: rgba(0, 0, 0, 0) url("../img/home/BusinessVisa.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* STUDY VISA STARTS */
+
+.study-visa-img{
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.why-choosebg{
+    background-color: #b8261c;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+.why-chooseus h3{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Style Script';
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 4px;
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+.road-map{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.road-map ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 90px;
+}
+.road-map ul li{    
+    max-width: 200px;
+    margin-right: 150px;
+    width: 700px;
+    z-index: 1;
+    text-align: center;
+}
+.road-map::after{
+    content: '-----------------------------------------------------------------------------------------------------------------------';
+    position: absolute;
+    color: #fff;
+    top: 185px;
+    z-index: 0;
+}
+.road-map ul li img{
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 200px;
+    height: 160px;
+    padding: 5px;
+    border: 3px solid rgb(192, 87, 87);
+}
+.road-map ul li h4{
+    color: rgb(39, 39, 39);
+    font-weight: 400;
+    padding: 10px 0px;
+    text-decoration: underline;
+}
+.road-map ul li p{
+    color: #fff;
+}
+.section-title h2{
+    margin: 30px 20px;
+}
+@media screen and (max-width:992px){
+    .road-map ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .road-map ul li{
+        margin-bottom: 30px;
+
+    }
+    .road-map::after{
+        content: '';
+    }
+}
+/* STUDY VISA ENDS */
+
+/* IELTS/CELPIP STARTS */
+.ielts h2{
+    font-size: 2.8em;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin-top: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.ielts p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.celpip{
+}
+.celpip ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.celpip ul li{
+    display: flex;
+    margin-bottom: 10px;
+    background-color:#baa86b;
+    border-radius: 10px;
+}
+.celpip ul li img{
+    width: 150px;
+    margin: 8px 10px;
+    border-radius: 4px;
+}
+.celpip-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px ;
+}
+.bg-celpip{
+    background-color: #baa86b;
+}
+.celpip-content h5{
+    color: #000;
+    font-size: 3em;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Style Script';
+    letter-spacing: 4px;
+    border-bottom: 1px solid #000;
+}
+.celpip-content p{
+    color: #fff;
+}
+.celpip-img{
+    padding-left: 10px;
+}
+.text-muted1{
+    color: #000;
+    font-size: 0.8em;
+}
+.bg-celpip1{
+    background-color: #b8261c;
+    border-radius: 3px;
+}
+@media screen and (max-width:470px){
+    .card-img1{
+        width: 200px !important;
+        height: 200px;
+    }
+}
+.btn-pnp{
+    color: #fff !important;
+    /* width: 200px; */
+    margin-bottom: 30px;
+  }
+  .btn-pnp:hover{
+    color: #fff !important;
+    cursor: pointer;
+  }
+/* IELTS/CELPIP ENDS */
+
+/* ALBERTA INP STARTS HERE */
+.pnp-ul ul{
+    text-align: left;
+}
+.pnp-ul ul li{
+    margin-bottom: 20px;
+    list-style-type:circle;
+    
+}
+.breadcumb-area-Alberta{
+    background: rgba(0, 0, 0, 0) url("../img/home/ainp.jpg") repeat fixed center center;
+    padding: 275px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* TESTIMONIAL */
+.testimonial{
+    background: rgb(157,47,23);
+    background: linear-gradient(90deg, rgba(157,47,23,1) 9%, rgba(25,1,8,1) 100%);}
+
+/* CAREGIVER */
+.caregiver li{
+    list-style-type: disc !important;
+    font-size:1.2em ;
+    padding: 5px;
+    line-height: 22px;
+}
+
+/* PERMANENTVISA */
+.permanentOL{
+    list-style-type: upper-roman;
+    font-size: 1.1em;
+}
+.permanentOL li{
+    padding: 5px;
+    line-height: 20px;
+}
