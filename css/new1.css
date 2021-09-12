@@ -342,16 +342,23 @@ html {
 .content-service1 {
   border-bottom: 0;
 }
-
+.testimonial4_slide img {
+  border-radius: 8px;
+}
 @media (max-width: 1090px) {
   .testimonial4_slide img {
-    height: auto;
+    height: 100%;
     margin-left: 0;
-    border: 1px solid red;
   }
   .noneImg {
     display: none;
   }
 }
-
+.swiper-slide::before {
+  background: linear-gradient(
+    118deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgb(0 0 0 / 48%) 100%
+  );
+}
 /* new css end */
